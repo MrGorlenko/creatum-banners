@@ -24,33 +24,27 @@
 }
 
 .container {
+  margin-top: 6px;
   border-radius: 20px;
-  height: 90%;
-  padding-left: 8%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
   position: relative;
   top: -1%;
   z-index: 8;
 }
 
-.container_1 {
-  padding-top: 168px;
-  overflow: hidden;
-}
-
-.container_2 {
-  padding-top: 224px;
-}
-
-.container_3 {
-  padding-top: 224px;
-}
-
-.container_4 {
-  padding-top: 224px;
+.container_5 {
+  justify-content: space-around;
+  height: 65%;
+  margin-top: 15%;
 }
 
 .title {
   margin-top: 45px;
+  margin-bottom: 40px;
   font-family: Gilroy;
   font-style: normal;
   font-weight: bold;
@@ -58,6 +52,16 @@
   line-height: 50px;
   text-transform: uppercase;
   color: #272727;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: 35px;
+    line-height: 41px;
+  }
+  .container {
+    padding-left: 5%;
+  }
 }
 
 .page {
@@ -79,17 +83,26 @@
   font-size: 22px;
   line-height: 27px;
   color: #272727;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .page__label_2 {
   width: 325px;
+  margin-bottom: 0;
 }
 
 .page1__pic {
-  width: 36%;
-  top: 20%;
+  width: 41%;
+  top: 23%;
   position: absolute;
   right: 5%;
+}
+
+@media (max-height: 721px) {
+  .page1__pic {
+    width: 36%;
+  }
 }
 
 .page2__title {
@@ -100,6 +113,7 @@
   line-height: 40px;
   text-transform: uppercase;
   color: #272727;
+  margin-top: 0;
 }
 
 .page_2 {
@@ -169,7 +183,7 @@
   max-height: 500px;
   position: absolute;
   right: 70px;
-  bottom: 400px;
+  bottom: 65%;
 }
 
 .page3__pic {
@@ -183,12 +197,120 @@
   transition: opacity .3s ease;
 }
 
+@media (max-width: 1200px) {
+  .page3__container {
+    right: 25px;
+    bottom: 75%;
+  }
+  .page3__pic_2 {
+    margin-top: 20%;
+  }
+  .page3__pic_3 {
+    width: 90%;
+  }
+}
+
 .page_4 {
   opacity: 0;
 }
 
 .page_5 {
   opacity: 0;
+}
+
+.page5__title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #272727;
+  position: absolute;
+  left: 5%;
+}
+
+.page5__title_cont {
+  margin-top: -15px;
+}
+
+.page5__team {
+  display: flex;
+  width: 750px;
+  justify-content: space-between;
+}
+
+.page5__content {
+  margin-left: 260px;
+}
+
+.page5__name {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #272727;
+  margin-top: 25px;
+  margin-bottom: 4px;
+}
+
+.page5__position {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #272727;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page5__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page5__block img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.page5__email {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272727;
+  text-decoration: none;
+}
+
+.page5__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.page5__contacts {
+  height: 80px;
+  justify-content: space-between;
+}
+
+.page5__subtitle {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #272727;
+  position: absolute;
+  bottom: -30px;
 }
 
 .menu {
@@ -221,7 +343,7 @@
 .logo {
   position: absolute;
   top: 8%;
-  left: 10%;
+  left: 7%;
   z-index: 9000;
 }
 
@@ -251,17 +373,30 @@
   background: linear-gradient(232.49deg, #F7AC01 -2.27%, #FE2E00 95.96%);
 }
 
+@media (max-width: 1200px) {
+  .logo {
+    left: 7%;
+  }
+}
+
 .yellow {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 43%;
+  top: 0px;
+  right: 0px;
+  width: 53%;
+}
+
+@media (max-height: 721px) {
+  .yellow {
+    width: 46%;
+  }
 }
 
 .toggle {
   width: 320px;
-  height: 160px;
+  height: 228px;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .toggle__item {
@@ -291,8 +426,14 @@
 
 .toggle__arrow {
   position: absolute;
-  top: 17px;
+  height: 25px;
+  top: 15px;
   right: 40px;
+  width: 11px;
+  overflow: hidden;
+  text-align: start;
+  transform: rotate(180deg);
+  font-size: 30px;
 }
 
 .marquee {
@@ -396,5 +537,9 @@
   position: absolute;
   top: 35%;
   right: 15%;
+}
+
+.icons img {
+  margin-right: 25px;
 }
 /*# sourceMappingURL=style.css.map */

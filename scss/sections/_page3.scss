@@ -74,7 +74,7 @@
         max-height: 500px;
         position:absolute;
         right: 70px;
-        bottom: 400px;
+        bottom: 65%;
     }
 
     &__pic{
@@ -88,4 +88,21 @@
         }
     }
 
+}
+
+@media (max-width: 1200px){
+    .page3{
+        &__container{
+            right: 25px;
+            bottom: 75%;
+        }
+        &__pic{
+            &_2{
+                margin-top: 20%;
+            }
+            &_3{
+                width: 90%;
+            }
+        }
+    }
 }

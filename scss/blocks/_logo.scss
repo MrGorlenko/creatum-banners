@@ -1,7 +1,7 @@
 .logo{
     position: absolute;
     top:8%;
-    left: 10%;
+    left: 7%;
 
     z-index: 9000;
     &__line{
@@ -23,5 +23,11 @@
         &_5{
             background: linear-gradient(232.49deg, #F7AC01 -2.27%, #FE2E00 95.96%);
         }
+    }
+}
+
+@media (max-width: 1200px){
+    .logo{
+        left: 7%;
     }
 }

@@ -23,36 +23,36 @@
         }
 }
 .container{
+
+    margin-top: 6px;
+
     border-radius: 20px;
-    height: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
 
 
-
-    padding-left: 8%;
     position: relative;
 
     top: -1%;
 
     z-index: 8;
 
-    &_1{
-       padding-top: 168px;
-       overflow: hidden;
+    &_5{
+        justify-content: space-around;
+        height: 65%;
+        margin-top: 15%;
     }
-    &_2{
-        padding-top: 224px;
-    }
-    &_3{
-        padding-top: 224px;
-    }
-    &_4{
-        padding-top: 224px;
-    }
+
 
 }
 
 .title{
     margin-top: 45px;
+    margin-bottom: 40px;
 
     font-family: Gilroy;
     font-style: normal;
@@ -64,4 +64,16 @@
 
     color: #272727;
 
+}
+
+
+@media (max-width: 1200px){
+    .title{
+        font-size: 35px;
+        line-height: 41px;        
+    }
+
+    .container{
+        padding-left: 5%;
+    }
 }
