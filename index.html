@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creatum</title>
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="style/css/normalize.css">
+
+    <link rel="stylesheet" href="style/css/jquery.pagepiling.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src='scripts/lib/jquery.pagepiling.js'></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body id="body" class='body_1'>
+
+    <div class="logo">
+        <img src="img/logo.svg" alt="">
+        <div class="logo__line logo__line_1"></div>
+     </div>
+
+
+    <ul id="myMenu" class='menu'>
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage"></a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Виды креативов</a></li>
+        <li data-menuanchor="thirdPage"><a href="#thirdPage">Процесс</a></li>
+        <li data-menuanchor="fourthPage"><a href="#fourthPage">Тарифы</a></li>
+        <li data-menuanchor="fifthPage"><a href="#fifthPage">Команда</a></li>
+    </ul>
+
+    <div id="pagepiling" class="page">
+
+        <div class="section section_c page_1">
+            <div class="container container_1">
+
+                <img src="img/page1/yellow.svg" alt="" class="yellow">
+
+                <img src="img/page1/pictures.png" alt="" class='page1__pic'>
+
+            
+                   <p class="page__label page__label_1">Мы делаем</p>
+                   <h1 class="title">Статичные <br> и динамичные креативы</h1>
+                   <p class="page__label page__label_2">Дешевле штатного дизайнера и качественнее фрилансеров.</p>
+                </div>
+            </div>
+
+        <div id='page-2' class="section section_c page_2">
+            <div class="container container_2">
+
+                 <p class="page2__title">Виды креативов</p>
+
+                 <ul class="toggle">
+                     <li id='toggle-1' class='toggle__item toggle__item_active'>Статичные <span class="toggle__arrow">></span></li>
+                     <li id='toggle-2' class='toggle__item'>Динамичные <span class="toggle__arrow">></span></li>
+                     <li id='toggle-3' class='toggle__item'>HTML <span class="toggle__arrow">></span></li>
+                     <li id='toggle-4' class='toggle__item'>короткие-ролики <span class="toggle__arrow">></span></li>
+                 </ul>
+
+                 <div class="marquee marquee_none">
+                     <img class='marquee__item' id='mar-static' src="img/page2/static.png" alt="">
+                     <img id='mar-dynamic' class='marquee_none marquee__item' src="img/page2/dinamic.png" alt="">
+                     <img id='mar-html' class='marquee_none marquee__item1' src="img/page2/html.png" alt="">
+                     <div id='mar-video' class='marquee_none marquee__item2' src="img/page2/html.png">
+                        <img src="img/page2/video.png" alt="" class="mar__video">
+                        <img src="img/page2/video.png" alt="" class="mar__video">
+                        <img src="img/page2/video.png" alt="" class="mar__video">
+                        <img src="img/page2/video.png" alt="" class="mar__video">
+
+
+                    </div>
+                 </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="section section_c page_3">
+            <div class="container container_3">
+                <p class="page3__title">Как устроен процесс</p>
+
+                <ul class="page3__list">
+                    <li id='proc-1' class='page3__item page3__item_active'>1.   <span>Заполнение брифа</span></li>
+                    <li id='proc-2' class='page3__item'>2.   <span>Изготовление и согласование прототипов</span></li>
+                    <li id='proc-3' class='page3__item'>3.   <span>Изготовление мастер-баннеров</span></li>
+                    <li id='proc-4' class='page3__item'>4.   <span>Внесение изменений и финальное согласоение</span></li>
+                </ul>
+
+                <p class="page3__paragraph">Мы знаем правило игры площадок 
+                    размещения, и подстраиваем их для наиболее эффективного плейсмента 
+                    наших креативов ваши продуктов. Это значит, что в фб мы сделаем текст 
+                    менее 20%, а для google ads изображение, которое подходит по смыслы к копирайтингу</p>
+
+                <div class="page3__container">
+                    <img src="img/page3/1.png" alt="" class="page3__pic page3__pic_1">
+                    <img src="img/page3/2.png" alt="" class="page3__pic page3__pic_2 page3__pic_none">
+                    <img src="img/page3/3.png" alt="" class="page3__pic page3__pic_3 page3__pic_none">
+                    <img src="img/page3/4.png" alt="" class="page3__pic page3__pic_4 page3__pic_none">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section section_c page_4">
+            <div class="container container_4">
+
+
+                 <!-- <p class="runner__decs">Статичные</p>
+                 <p class="runner__decs">Динаминчые</p>
+                 <p class="runner__decs">HTML</p> -->
+
+
+
+                <div class="fcalcp1">
+                        <div class="fcalcp2">
+                            <p class="runner__decs">Статичные</p>
+                            <div class="runner fcalcp5 fcalcp5_vedyshiy ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+                            <div class="fcalcp6 fcalcp5_vedyshiy_rez">
+                                <span class='runner__label'>0</span>
+                            </div>
+                        </div>
+                        <div class="fcalcp2">
+                            <p class="runner__decs">Динаминчые</p>
+                            <div class="runner fcalcp5 fcalcp5_decor ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+                            <div class="fcalcp6 fcalcp5_decor_rez">
+                                <span class='runner__label'>0</span>
+                            </div>
+                        </div>
+                        <div class="fcalcp2">
+                            <p class="runner__decs">HTML</p>
+                            <div class="runner fcalcp5 fcalcp5_html ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+                            <div class="fcalcp6 fcalcp5_html_rez">
+                                <span class='runner__label'>0</span>
+                            </div>
+                        </div>
+                        <div class="fcalcp7">
+                            <div class="fcalcp8">ИТОГО:</div>
+                            <div class="fcalcp9"><span>0</span></div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section section_c page_5">
+            <div class="container">
+                <!-- Some section -->
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+    
+
+    <script src='scripts/pagepill.js'></script>
+    <script src='scripts/toggle.js'></script>
+    <script src='scripts/run.js'></script>
+    <script src='scripts/process.js'></script>
+    <script src='scripts/tarif.js'></script>
+
+</body>
+</html>

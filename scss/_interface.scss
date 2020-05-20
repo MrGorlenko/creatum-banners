@@ -1,0 +1,67 @@
+
+.body{
+        &_1{
+            background: linear-gradient(229.39deg, #F1D044 6.57%, #F242C9 100%);
+            transition: background, 1.5s ease;
+        }
+        &_2{
+            background: linear-gradient(229.39deg, #A2BDF5 6.57%, #ECB1EA 100%);
+            transition: background, 1.5s ease;
+            // overflow: hidden;
+        }
+        &_3{
+            background: linear-gradient(232.49deg, #C74BE7 -2.27%, #369FEF 44.29%, #6EE0A3 95.96%);
+            transition: background, 1.5s ease;
+        }
+        &_4{
+            background: linear-gradient(189.05deg, #47C9F1 10.27%, #CC6ED4 97.16%);
+            transition: background, 1.5s ease;
+        }
+        &_5{
+            background: linear-gradient(232.49deg, #F7AC01 -2.27%, #FE2E00 95.96%);
+            transition: background, 1.5s ease;
+        }
+}
+.container{
+    border-radius: 20px;
+    height: 90%;
+
+
+
+    padding-left: 8%;
+    position: relative;
+
+    top: -1%;
+
+    z-index: 8;
+
+    &_1{
+       padding-top: 168px;
+       overflow: hidden;
+    }
+    &_2{
+        padding-top: 224px;
+    }
+    &_3{
+        padding-top: 224px;
+    }
+    &_4{
+        padding-top: 224px;
+    }
+
+}
+
+.title{
+    margin-top: 45px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+
+    text-transform: uppercase;
+
+    color: #272727;
+
+}

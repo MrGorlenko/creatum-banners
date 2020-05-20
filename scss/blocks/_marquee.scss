@@ -1,0 +1,62 @@
+.marquee{
+    position: absolute;
+    right: 5%;
+    top: 10px;
+    transition: top 60s ease;
+    display: block;
+
+    opacity: 1;
+
+    height: 100%;
+
+    &_none{
+        opacity: 0;
+
+    }
+
+    &_hid{
+        visibility: hidden;
+    }
+
+    &__item{
+        position: absolute;
+        right: 0;
+        top: 30px;
+        transition: 60s ease;
+        display: block;
+    }
+
+    &__item1{
+        bottom: -11%;
+        position: absolute;
+        right: 0;
+        display: block;
+    }
+
+    &__item2{
+
+        position: absolute;
+        right: 0;
+
+        width: 500px;
+        height: 400px;
+        bottom: 0;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+}
+
+.mar__video{
+    width: 49%;
+    height: 48%;
+}
+
+
+.marquee_top{
+    top: -1100px;
+    transition: top 60s ease;
+}
