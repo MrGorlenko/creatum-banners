@@ -41,6 +41,8 @@ $(document).ready(function() {
                 $('#body').removeClass('body_5');
 
                 $('.marquee').removeClass('marquee_none');
+                $('.marquee').css('z-index', 'initial');
+                $('.marquee__item').css('left', 'initial');
 
 
                 $('.page_2').css('opacity', '1');
@@ -66,6 +68,8 @@ $(document).ready(function() {
                 $('#body').removeClass('body_5');
 
                 $('.marquee').addClass('marquee_none');
+                $('.marquee').css('z-index', '-1');
+                $('.marquee__item').css('left', '30%');
 
                 $('.page_3').css('opacity', '1');
 

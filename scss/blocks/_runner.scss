@@ -19,7 +19,10 @@
 
         text-transform: uppercase;
         
-        color: #272727;        
+        color: #272727;  
+        
+        width: 175px;
+        text-align: end;
     }
 }
 
@@ -43,12 +46,25 @@
 }
 
 
-.fcalcp7{
-    position: absolute;
-    top: 35%;
-    right: 15%;
+.fcalcp2{
+    height: 80px;
 }
 
-// .fcalcp6, .fcalcp5_vedyshiy_rez{
-//     padding-left: 200px;
-// }
+.fcalcp1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.fcalcp9{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.2012px;
+    line-height: 39px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}

@@ -34,7 +34,6 @@
     </ul>
 
     <div id="pagepiling" class="page">
-
         <div class="section section_c page_1">
             <div class="container container_1">
 
@@ -47,7 +46,7 @@
                    <h1 class="title">Статичные <br> и динамичные креативы</h1>
                    <p class="page__label page__label_2">Дешевле штатного дизайнера и качественнее фрилансеров.</p>
                 </div>
-            </div>
+        </div>
 
         <div id='page-2' class="section section_c page_2">
             <div class="container container_2">
@@ -66,13 +65,23 @@
                      <img id='mar-dynamic' class='marquee_none marquee__item' src="img/page2/dinamic.png" alt="">
                      <img id='mar-html' class='marquee_none marquee__item1' src="img/page2/html.png" alt="">
                      <div id='mar-video' class='marquee_none marquee__item2' src="img/page2/html.png">
-                        <img src="img/page2/video.png" alt="" class="mar__video">
-                        <img src="img/page2/video.png" alt="" class="mar__video">
-                        <img src="img/page2/video.png" alt="" class="mar__video">
-                        <img src="img/page2/video.png" alt="" class="mar__video">
-
-
+                        <div class="mar__video">
+                            <iframe class="mar__movie" src="https://player.vimeo.com/video/398104473"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                        <div class="mar__video">
+                            <iframe class="mar__movie" src="https://player.vimeo.com/video/381193802" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                        <div class="mar__video">
+                            <iframe class="mar__movie" src="https://player.vimeo.com/video/384544762"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                        <div class="mar__video">
+                            <iframe class="mar__movie" src="https://player.vimeo.com/video/375724926"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
                     </div>
+                    <p id='mar-html_label' class="marquee_none mar__html">HTML-баннеры аналогичны 
+                        статичным/динамическим, но состоят из программного кода, поэтому 
+                        они более оптимизированы для закгрузки в интернете или какой-то 
+                        другой текст. Я особо не силен.</p>
                  </div>
 
 
@@ -109,8 +118,12 @@
         <div class="section section_c page_4">
             <div class="container container_4">
 
+                <span class="page4__title">Тарифы</span>
+                <span class="page4__label">Выберите подходящее для вас количество и вид баннеров</span>
+
 
                 <div class="fcalcp1">
+                    <div class="page4__block">
                         <div class="fcalcp2">
                             <p class="runner__decs">Статичные</p>
                             <div class="runner fcalcp5 fcalcp5_vedyshiy ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
@@ -132,11 +145,32 @@
                                 <span class='runner__label'>0</span>
                             </div>
                         </div>
-                        <div class="fcalcp7">
-                            <div class="fcalcp8">ИТОГО:</div>
-                            <div class="fcalcp9"><span>0</span></div>
+                    </div>
+                    <div class="summarize">
+                        <div class="summarize__banners">
+                            <span>#</span> баннеров
                         </div>
+                        <div class="fcalcp7">
+                            <div class="fcalcp9"><span>0</span> ₽ </div>
+                        </div>
+                        <div class="summarize__amount">
+                            <span class="summarize__line"> Статичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
+                            <span class="summarize__line"> Динамичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
+                            <span class="summarize__line"> Перевод в HTML: <span class="summarize__amount_banners">#</span>шт. </span>
+                        </div>
+
+                        <button class="summarize__button">Заказать</button>
+                    </div>
                 </div>
+<!-- 
+                <div class="box">
+                    <input id='amount'  value="10">
+                    <input class='runner' type="range" min="0" value="0" max="18" step="1">
+                </div>
+                <div class="box">
+                    <input type="text" value="10">
+                    <input type="range" min="0" value="0" max="18" step="1">
+                </div> -->
 
             </div>
         </div>
@@ -153,7 +187,7 @@
 
                         <div class="page5__block"> <img src="img/page5/Evgeny.jpg" alt=""> <p class="page5__name">Евгений Федоров</p> <p class="page5__position">Арт Директор</p> </div>
                         <div class="page5__block"> <img src="img/page5/Alice.jpg" alt=""> <p class="page5__name">Алиса Тейван</p> <p class="page5__position">Креатор</p> </div>
-                        <div class="page5__block"> <img src="img/page5/Max.jpg" alt=""> <p class="page5__name">Максим Олисов</p> <p class="page5__position">Маркетолог</p> </div>
+                        <div class="page5__block"> <img src="img/page5/Max.jpg" alt=""> <p class="page5__name">Максим Оливсон</p> <p class="page5__position">Маркетолог</p> </div>
                         <div class="page5__block"> <img src="img/page5/Insaf.jpg" alt=""> <p class="page5__name">Инсаф Галиев</p> <p class="page5__position">Аккаунт-менеджер</p> </div>
                     </div>
 
@@ -176,6 +210,37 @@
         </div>
     </div>
 
+
+    <!-- <section class="modal">
+
+        <div class="summarize summarize_modal">
+            <div class="summarize__banners">
+                <span>#</span> баннеров
+            </div>
+            <div class="fcalcp7">
+                <div class="fcalcp9"><span>0</span> ₽ </div>
+            </div>
+            <div class="summarize__amount">
+                <span class="summarize__line"> Статичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
+                <span class="summarize__line"> Динамичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
+                <span class="summarize__line"> Перевод в HTML: <span class="summarize__amount_banners">#</span>шт. </span>
+            </div>
+
+            <button class="summarize__button">Заказать</button>
+        </div>
+
+        <div class="form">
+            <span class="form__title">Оформление заказа</span>
+            <span class="form__subtitle">Оставьте свои координаты и мы свяжемся с вами в ближайшее время</span>
+            <label for="" class="form__label">Ваше имя <span>*</span> </label>
+            <input type="text" class="form__input" placeholder='Введите имя'>
+            <label for="" class="form__label">Электронная почта <span>*</span> </label>
+            <input type="text" class="form__input" placeholder="Введите почту для обратной связи">
+            <label for="" class="form__label">Телефонный номер <span>*</span> </label>
+            <input type="text" class="form__input" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+        </div>
+
+    </section> -->
     
 
     
@@ -186,6 +251,7 @@
     <script src='scripts/run.js'></script>
     <script src='scripts/process.js'></script>
     <script src='scripts/tarif.js'></script>
+    <script src='scripts/runner.js'></script>
 
 </body>
 </html>

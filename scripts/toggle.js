@@ -39,6 +39,7 @@ $(document).ready(function(){
         $('#mar-static').removeClass('marquee_none');
         $('#mar-dynamic').addClass('marquee_none');
         $('#mar-html').addClass('marquee_none');
+        $('#mar-html_label').addClass('marquee_none');
         $('#mar-video').addClass('marquee_none');
     })
 
@@ -46,6 +47,7 @@ $(document).ready(function(){
         $('#mar-static').addClass('marquee_none');
         $('#mar-dynamic').removeClass('marquee_none');
         $('#mar-html').addClass('marquee_none');
+        $('#mar-html_label').addClass('marquee_none');
         $('#mar-video').addClass('marquee_none');
     })
 
@@ -53,6 +55,7 @@ $(document).ready(function(){
         $('#mar-static').addClass('marquee_none');
         $('#mar-dynamic').addClass('marquee_none');
         $('#mar-html').removeClass('marquee_none');
+        $('#mar-html_label').removeClass('marquee_none');
         $('#mar-video').addClass('marquee_none');
     })
 
@@ -60,7 +63,8 @@ $(document).ready(function(){
         $('#mar-static').addClass('marquee_none');
         $('#mar-dynamic').addClass('marquee_none');
         $('#mar-html').addClass('marquee_none');
+        $('#mar-html_label').addClass('marquee_none');
         $('#mar-video').removeClass('marquee_none');
     })
-
+    // id='mar-html_label'
 })
