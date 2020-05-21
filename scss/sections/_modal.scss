@@ -6,11 +6,29 @@
     height: 105vh;
     background: rgba(255,255,255,1);
 
-    z-index: 9001;
+    z-index: -1;
 
 
     padding-left: 7%;
-    padding-top: 15%;
 
     display: flex;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity .3s ease;
+
+    &__close{
+        position: absolute;
+        right: 10%;
+        top: 5%;
+
+        cursor: pointer;
+    }
+
+}
+
+.modal_active{
+    opacity: 1;
+    transition: opacity .3s ease;
+    z-index: 9001;
 }
