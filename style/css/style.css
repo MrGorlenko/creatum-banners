@@ -110,7 +110,7 @@
 
 @media (max-width: 576px) {
   .container_2 {
-    padding-top: 90px;
+    padding-top: 150px;
   }
 }
 
@@ -732,7 +732,7 @@
 }
 
 .marquee_left {
-  left: -1050px !important;
+  left: -900px !important;
   transition: left 150s ease;
 }
 
@@ -1139,6 +1139,9 @@
   }
   .marquee__item2 {
     bottom: 10px;
+  }
+  .container_2 {
+    padding-top: 90px;
   }
 }
 
