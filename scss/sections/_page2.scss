@@ -16,3 +16,12 @@
 .page_2{
     opacity: 0;
 }
+
+@media (max-width: 576px){
+    .page2{
+        &__title{
+            margin-bottom: 10px;
+            font-size: 26px;
+        }
+    }
+}

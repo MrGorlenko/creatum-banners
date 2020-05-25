@@ -38,13 +38,17 @@
             <div class="container container_1">
 
                 <img src="img/page1/yellow.svg" alt="" class="yellow">
+                <img src="img/page1/yellow-mobile.svg" alt="" class="yellow_mobile">
 
                 <img src="img/page1/pictures.png" alt="" class='page1__pic'>
 
             
-                   <p class="page__label page__label_1">Мы делаем</p>
-                   <h1 class="title">Статичные <br> и динамичные креативы</h1>
-                   <p class="page__label page__label_2">Дешевле штатного дизайнера и качественнее фрилансеров.</p>
+                <div class='page1__container'>
+                    <p class="page__label page__label_1">Мы делаем</p>
+                    <h1 class="title">Статичные <br> и динамичные креативы</h1>
+                    <p class="page__label page__label_2">Дешевле штатного дизайнера и качественнее фрилансеров.</p>
+                </div>
+
                 </div>
         </div>
 
@@ -62,7 +66,9 @@
 
                  <div class="marquee marquee_none">
                      <img class='marquee__item' id='mar-static' src="img/page2/static.png" alt="">
+                     <img class='marquee__item_mobile' id='mar-static-mobile' src="img/page2/static-mobile.png" alt="">
                      <img id='mar-dynamic' class='marquee_none marquee__item' src="img/page2/dinamic.png" alt="">
+                     <img id='mar-dynamic-mobile' class='marquee_none marquee__item_mobile' src="img/page2/dinamic-mobile.png" alt="">
                      <img id='mar-html' class='marquee_none marquee__item1' src="img/page2/html.png" alt="">
                      <div id='mar-video' class='marquee_none marquee__item2' src="img/page2/html.png">
                         <div class="mar__video">
@@ -128,49 +134,41 @@
                             <p class="runner__decs">Статичные</p>
                             <div class="runner fcalcp5 fcalcp5_vedyshiy ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
                             <div class="fcalcp6 fcalcp5_vedyshiy_rez">
-                                <span class='runner__label'>0</span>
+                                <span class='runner__label runner__label_first'>0</span>
                             </div>
                         </div>
                         <div class="fcalcp2">
                             <p class="runner__decs">Динаминчые</p>
                             <div class="runner fcalcp5 fcalcp5_decor ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
                             <div class="fcalcp6 fcalcp5_decor_rez">
-                                <span class='runner__label'>0</span>
+                                <span class='runner__label runner__label_second'>0</span>
                             </div>
                         </div>
                         <div class="fcalcp2">
                             <p class="runner__decs">HTML</p>
                             <div class="runner fcalcp5 fcalcp5_html ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
                             <div class="fcalcp6 fcalcp5_html_rez">
-                                <span class='runner__label'>0</span>
+                                <span class='runner__label runner__label_last'>0</span>
                             </div>
                         </div>
                     </div>
                     <div class="summarize">
                         <div class="summarize__banners">
-                            <span>#</span> баннеров
+                            <span>0</span> баннеров
                         </div>
                         <div class="fcalcp7">
-                            <div class="fcalcp9"><span>0</span> ₽ </div>
+                            <div class="fcalcp9"><span class="tariff_sum">0</span> ₽ </div>
                         </div>
                         <div class="summarize__amount">
-                            <span class="summarize__line"> Статичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
-                            <span class="summarize__line"> Динамичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
-                            <span class="summarize__line"> Перевод в HTML: <span class="summarize__amount_banners">#</span>шт. </span>
+                            <span class="summarize__line summarize__line_static"> Статичный баннер: <span class="summarize__amount_banners">0</span>шт. </span>
+                            <span class="summarize__line summarize__line_dinam"> Динамичный баннер: <span class="summarize__amount_banners">0</span>шт. </span>
+                            <span class="summarize__line summarize__line_html"> Перевод в HTML: <span class="summarize__amount_banners">0</span>шт. </span>
                         </div>
 
                         <button class="summarize__button">Заказать</button>
                     </div>
                 </div>
-<!-- 
-                <div class="box">
-                    <input id='amount'  value="10">
-                    <input class='runner' type="range" min="0" value="0" max="18" step="1">
-                </div>
-                <div class="box">
-                    <input type="text" value="10">
-                    <input type="range" min="0" value="0" max="18" step="1">
-                </div> -->
+
 
             </div>
         </div>
@@ -223,9 +221,9 @@
                 <div class="fcalcp9"><span>0</span> ₽ </div>
             </div>
             <div class="summarize__amount">
-                <span class="summarize__line"> Статичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
-                <span class="summarize__line"> Динамичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
-                <span class="summarize__line"> Перевод в HTML: <span class="summarize__amount_banners">#</span>шт. </span>
+                <span class="summarize__line summarize__line_static"> Статичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
+                <span class="summarize__line summarize__line_dinam"> Динамичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
+                <span class="summarize__line summarize__line_html"> Перевод в HTML: <span class="summarize__amount_banners">#</span>шт. </span>
             </div>
 
         </div>

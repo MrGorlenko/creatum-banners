@@ -35,12 +35,17 @@ $(document).ready(function(){
 
 
 
+
+
     toggle1.on('click', function(){
         $('#mar-static').removeClass('marquee_none');
         $('#mar-dynamic').addClass('marquee_none');
         $('#mar-html').addClass('marquee_none');
         $('#mar-html_label').addClass('marquee_none');
         $('#mar-video').addClass('marquee_none');
+
+        $('#mar-static-mobile').removeClass('marquee_none');
+        $('#mar-dynamic-mobile').addClass('marquee_none');
     })
 
     toggle2.on('click', function(){
@@ -49,6 +54,9 @@ $(document).ready(function(){
         $('#mar-html').addClass('marquee_none');
         $('#mar-html_label').addClass('marquee_none');
         $('#mar-video').addClass('marquee_none');
+
+        $('#mar-static-mobile').addClass('marquee_none');
+        $('#mar-dynamic-mobile').removeClass('marquee_none');
     })
 
     toggle3.on('click', function(){
@@ -57,6 +65,9 @@ $(document).ready(function(){
         $('#mar-html').removeClass('marquee_none');
         $('#mar-html_label').removeClass('marquee_none');
         $('#mar-video').addClass('marquee_none');
+
+        $('#mar-static-mobile').addClass('marquee_none');
+        $('#mar-dynamic-mobile').addClass('marquee_none');
     })
 
     toggle4.on('click', function(){
@@ -65,6 +76,8 @@ $(document).ready(function(){
         $('#mar-html').addClass('marquee_none');
         $('#mar-html_label').addClass('marquee_none');
         $('#mar-video').removeClass('marquee_none');
+
+        $('#mar-static-mobile').addClass('marquee_none');
+        $('#mar-dynamic-mobile').addClass('marquee_none');
     })
-    // id='mar-html_label'
 })

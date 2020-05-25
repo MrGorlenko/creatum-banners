@@ -32,3 +32,31 @@
         }
     }
 }
+
+@media (max-width: 768px){
+    .page{
+        &__label{
+            line-height: 22px;
+            font-size: 19px;
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .page{
+        &__label{
+
+            width: 236px;
+
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            
+            color: #272727;
+        }
+    }
+}
+
