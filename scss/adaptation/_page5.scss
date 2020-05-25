@@ -1,0 +1,58 @@
+@media (max-width: 576px){
+
+    .page5{
+        &__title{
+            font-size: 24px;
+            &_team{
+                top: 20px;
+                left: 0;
+            }
+        }
+        &__content{
+            position: relative;
+        }
+
+        &__contacts{
+            width: 300px;
+        }
+
+        &__subtitle{
+            bottom: -45px;
+        }
+
+    }
+
+
+    .container_5{
+        padding-left: 0;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 325px){
+
+    .container_5{
+        margin-top: 8%;
+    }
+
+    .page5{
+        &__title{
+            font-size: 18px;
+        }
+
+        &__team{
+            height: 240px;
+            width: 275px;
+        }
+
+        &__block{
+            height: 110px;
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+
+}

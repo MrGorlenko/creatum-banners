@@ -113,3 +113,69 @@
     }
 
 }
+
+@media (max-width: 1200px){
+
+    .page5{
+        &__content{
+            margin-left: 185px;
+        }
+
+        &__team{
+            width: 600px;
+        }
+
+        &__block{
+            img{
+
+                width: 100px;
+                height: 100px;
+
+            }
+        }
+    }
+
+}
+
+@media (max-width: 992px){
+
+    .container_5{
+        height: 90%;
+        margin-top: 5%;
+    }
+
+    .page5{
+
+        &__title{
+            &_team{
+                top: 45px;
+            }
+            &_cont{
+                margin-top: -60px;
+            }
+        }
+
+        &__content{
+            margin-left: 0;
+        }
+
+        &__team{
+            width: 300px;
+            flex-wrap: wrap;
+            height: 285px;
+            padding-top: 65px;
+        }
+
+        &__block{
+            img{
+                width: 80px;
+                height: 80px;
+            }
+        }
+
+        &__name{
+            margin-top: 10px;
+        }
+    }
+
+}
