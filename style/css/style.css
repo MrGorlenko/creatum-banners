@@ -1252,7 +1252,7 @@
     width: 225px;
   }
   .container_3 {
-    padding-top: 50px;
+    padding-top: 70px;
   }
 }
 
@@ -1269,6 +1269,118 @@
   }
   .page3__pic {
     width: 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .page4__label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    width: 265px;
+  }
+  .runner {
+    margin-left: 15px;
+    margin-top: 8px;
+    width: 245px;
+  }
+  .runner__label {
+    margin-left: -160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page4__title {
+    margin-top: 60px;
+    margin-bottom: 3px;
+    font-size: 25px;
+  }
+  .page4__label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    width: 265px;
+  }
+  .runner {
+    margin-left: 15px;
+    margin-top: 8px;
+    width: 245px;
+  }
+  .runner__decs {
+    font-size: 12px;
+    width: 100%;
+  }
+  .runner__decs_left {
+    text-align: start;
+    padding-left: 15px;
+  }
+  .summarize {
+    width: 200px;
+    height: 350px;
+    margin-top: 50px;
+    padding-bottom: 65px;
+    min-height: 250px;
+    justify-content: flex-start;
+  }
+  .summarize__banners {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .summarize__button {
+    margin-top: 10px;
+  }
+  .fcalcp1 {
+    flex-direction: column;
+    height: 475px;
+  }
+  .fcalcp2 {
+    height: 55px;
+  }
+  .fcalcp9 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container_4 {
+    height: 100%;
+  }
+  .page4__title {
+    padding-left: 30px;
+  }
+  .page4__label {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 330px) and (max-height: 570px) {
+  .page4__title {
+    margin-top: 40px;
+    font-size: 20px;
+    height: 32px;
+    margin-top: 55px;
+    padding-left: 15px;
+  }
+  .page4__label {
+    margin-bottom: 0;
+    padding-left: 15px;
+  }
+  .summarize {
+    margin-top: 15px;
+  }
+  .summarize__banners {
+    font-size: 15px;
+  }
+  .summarize__line {
+    font-size: 12px;
+  }
+  .summarize__amount {
+    height: 45px;
+  }
+  .fcalcp9 {
+    height: 31px;
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

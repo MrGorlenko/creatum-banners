@@ -43,6 +43,8 @@ $(document).ready(function() {
                 $('.marquee').removeClass('marquee_none');
                 $('.marquee').css('z-index', 'initial');
                 $('.marquee__item').css('left', 'initial');
+                $('.marquee__item1').css('left', 'initial');
+                $('.marquee__item_mobile').css('left', 'initial');
 
 
                 $('.page_2').css('opacity', '1');
@@ -70,6 +72,8 @@ $(document).ready(function() {
                 $('.marquee').addClass('marquee_none');
                 $('.marquee').css('z-index', '-1');
                 $('.marquee__item').css('left', '30%');
+                $('.marquee__item1').css('left', '30%');
+                $('.marquee__item_mobile').css('left', '30%');
 
                 $('.page_3').css('opacity', '1');
 
@@ -94,6 +98,10 @@ $(document).ready(function() {
 
                 $('.page_4').css('opacity', '1');
 
+                $('.marquee__item').css('left', '30%');
+                $('.marquee__item1').css('left', '30%');
+                $('.marquee__item_mobile').css('left', '30%');
+
                 /* LOGO LINE */
                 $('.logo__line').removeClass('logo__line_1');
                 $('.logo__line').removeClass('logo__line_2');
@@ -115,6 +123,10 @@ $(document).ready(function() {
                 $('#body').addClass('body_5');
 
                 $('.page_5').css('opacity', '1');
+
+                $('.marquee__item').css('left', '30%');
+                $('.marquee__item1').css('left', '30%');
+                $('.marquee__item_mobile').css('left', '30%');
 
                 /* LOGO LINE */
                 $('.logo__line').removeClass('logo__line_1');
