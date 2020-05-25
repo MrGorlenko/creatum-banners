@@ -1135,7 +1135,7 @@
     bottom: -90px;
   }
   .marquee__item_mobile {
-    height: 260px;
+    height: 220px;
   }
   .marquee__item2 {
     bottom: 10px;
@@ -1150,7 +1150,7 @@
     height: 300px;
   }
   .marquee__item_mobile {
-    bottom: 50px;
+    bottom: 70px;
   }
 }
 
