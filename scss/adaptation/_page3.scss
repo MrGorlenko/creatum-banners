@@ -68,6 +68,7 @@
 
         &__title{
             width: 325px;
+            margin-bottom: 0px;
         }
 
         &__list{
@@ -92,6 +93,10 @@
         &__pic{
             width: 225px;
         }
+    }
+
+    .container_3{
+        padding-top: 50px;
     }
 
 }

@@ -1233,6 +1233,7 @@
   }
   .page3__title {
     width: 325px;
+    margin-bottom: 0px;
   }
   .page3__list {
     width: 330px;
@@ -1249,6 +1250,9 @@
 @media (max-width: 380px) and (max-height: 670px) {
   .page3__pic {
     width: 225px;
+  }
+  .container_3 {
+    padding-top: 50px;
   }
 }
 
