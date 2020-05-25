@@ -808,7 +808,7 @@
     font-size: 13px;
     width: 315px;
     line-height: 15px;
-    top: 10px;
+    top: 20px;
   }
   .mar__video {
     width: 100%;
@@ -1153,7 +1153,7 @@
     height: 300px;
   }
   .marquee__item_mobile {
-    bottom: 70px;
+    bottom: 50px;
   }
 }
 
