@@ -109,6 +109,9 @@
 }
 
 @media (max-width: 576px) {
+  .logo {
+    margin-bottom: 5px;
+  }
   .container_2 {
     padding-top: 150px;
   }
@@ -1345,10 +1348,13 @@
 @media (max-width: 576px) {
   .container_4 {
     height: 80%;
+    padding-left: 0;
   }
   .page4__title {
-    padding-left: 30px;
     margin-top: 20px;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
   }
   .page4__label {
     padding-left: 30px;
