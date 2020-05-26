@@ -22,6 +22,14 @@
     .container_2{
         padding-top: 90px;
     }
+
+    .marquee__item1 {
+        bottom: -130px !important;
+        }
+
+    .marquee__item2 {
+        bottom: -10px  !important;
+        }
 }
 
 @media (max-width: 380px) and (min-height: 666px){
@@ -42,13 +50,6 @@
         }
     }
 
-    .marquee__item1 {
-        bottom: -130px !important;
-        }
-
-    .marquee__item2 {
-        bottom: -10px  !important;
-        }
 }
 
 
