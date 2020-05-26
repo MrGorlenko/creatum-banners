@@ -107,12 +107,18 @@
         }
 
         &__label{
-            padding-left: 30px;
+            width: 100%;
+            text-align: center;
         }
     }
 
     .fcalcp1{
         height: 320px;
+
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+
     }
 
     .fcalcp2{
@@ -122,6 +128,8 @@
     .runner{
         &__decs{
             line-height: 12px;
+            color: #C7DDE3;
+            font-size: 12px;
         }
     }
 

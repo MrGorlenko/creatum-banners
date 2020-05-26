@@ -1217,8 +1217,8 @@
     width: 300px;
   }
   .page1__pic {
-    width: 310px;
-    height: 302px;
+    width: 340px;
+    height: 310px;
     margin-left: 0;
   }
 }
@@ -1476,16 +1476,22 @@
     text-align: center;
   }
   .page4__label {
-    padding-left: 30px;
+    width: 100%;
+    text-align: center;
   }
   .fcalcp1 {
     height: 320px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .fcalcp2 {
     height: 45px;
   }
   .runner__decs {
     line-height: 12px;
+    color: #C7DDE3;
+    font-size: 12px;
   }
   .summarize {
     margin-top: 25px;
@@ -1529,6 +1535,9 @@
     top: 20px;
     left: 0;
   }
+  .page5__title_cont {
+    left: 0;
+  }
   .page5__content {
     position: relative;
   }
@@ -1544,6 +1553,28 @@
   }
 }
 
+@media (max-width: 376px) {
+  .page5__contacts {
+    width: 275px;
+  }
+  .page5__title {
+    font-size: 20px;
+  }
+  .page5__title_cont {
+    margin-top: -40px;
+    left: 15px;
+  }
+  .page5__name {
+    font-size: 14px;
+  }
+  .page5__position {
+    font-size: 12px;
+  }
+  .page5__team {
+    width: 240px;
+  }
+}
+
 @media (max-width: 325px) {
   .container_5 {
     margin-top: 8%;
@@ -1553,7 +1584,6 @@
   }
   .page5__team {
     height: 240px;
-    width: 275px;
   }
   .page5__block {
     height: 110px;
