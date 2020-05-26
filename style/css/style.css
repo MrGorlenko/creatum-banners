@@ -1298,6 +1298,12 @@
   }
 }
 
+@media (max-width: 380px) and (min-height: 800px) {
+  .marquee__item_mobile {
+    bottom: 150px;
+  }
+}
+
 @media (max-width: 380px) and (max-height: 670px) {
   .marquee__item1 {
     bottom: -150px;

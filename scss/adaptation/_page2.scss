@@ -6,6 +6,7 @@
 
     .marquee__item_mobile{
         height: 220px;
+        // bottom: 150px;
     }
 
     .marquee__item2{
@@ -14,6 +15,14 @@
 
     .container_2{
         padding-top: 90px;
+    }
+
+}
+
+@media (max-width: 380px) and (min-height: 800px){
+
+    .marquee__item_mobile{
+        bottom: 150px;
     }
 
 }
