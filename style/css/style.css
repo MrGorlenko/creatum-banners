@@ -1292,6 +1292,12 @@
   }
 }
 
+@media (max-width: 576px) {
+  .marquee {
+    z-index: -1;
+  }
+}
+
 @media (max-width: 415px) and (max-height: 750px) {
   .marquee__item1 {
     bottom: -90px;
