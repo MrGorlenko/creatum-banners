@@ -1309,7 +1309,7 @@
 
 @media (max-width: 380px) and (min-height: 666px) {
   .marquee__item_mobile {
-    bottom: 150px;
+    bottom: 100px;
   }
   .toggle {
     margin-top: 0;
@@ -1329,7 +1329,7 @@
   }
   .marquee__item2 {
     height: 285px;
-    bottom: 95px;
+    bottom: 85px;
   }
 }
 
