@@ -847,7 +847,7 @@
 
 .marquee_left {
   left: -900px !important;
-  transition: left 150s ease;
+  transition: left 120s ease;
 }
 
 .mar__html {
@@ -884,7 +884,7 @@
     height: 310px;
     position: absolute;
     left: 15px;
-    transition: left 150s ease;
+    transition: left 110s ease;
   }
   .marquee__item1 {
     bottom: -300px;
@@ -1306,6 +1306,27 @@
   }
   #mar-video {
     top: 0;
+  }
+}
+
+@media (max-width: 380px) and (max-height: 780px) {
+  .marquee__item_mobile {
+    height: 290px;
+  }
+  #mar-dynamic-mobile {
+    top: -310px;
+  }
+  .marquee__item2 {
+    height: 300px;
+    width: 100%;
+  }
+  .toggle__item {
+    height: 30px;
+    padding-top: 10px;
+  }
+  .toggle {
+    height: 80px;
+    margin-bottom: 20px;
   }
 }
 
