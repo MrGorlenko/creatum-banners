@@ -1,0 +1,20 @@
+{
+  "name": "creatum-banners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrGorlenko/creatum-banners.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrGorlenko/creatum-banners/issues"
+  },
+  "homepage": "https://github.com/MrGorlenko/creatum-banners#readme"
+}
