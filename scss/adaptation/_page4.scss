@@ -140,6 +140,12 @@
 
 @media (max-width: 376px){
 
+    .page4{
+        &__title{
+            margin-top: 0px;
+        }
+    }
+
     .summarize{
         margin-top: 15px;
         min-height: 210px;
