@@ -1302,6 +1302,16 @@
   .marquee__item_mobile {
     bottom: 150px;
   }
+  .toggle {
+    margin-top: 0;
+  }
+  .toggle__item {
+    font-size: 13px;
+    height: 27px;
+    padding-top: 7px;
+    width: 46%;
+    padding-left: 2%;
+  }
 }
 
 @media (max-width: 380px) and (max-height: 670px) {
