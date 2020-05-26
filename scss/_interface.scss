@@ -1,4 +1,26 @@
 
+@media (min-width: 1450px){
+
+    .container{
+        padding-left: 0 !important;
+        width: 60%;
+        margin: auto;
+    }
+
+    .menu{
+        right: 22% !important;
+    }
+
+    .logo{
+        left: 21% !important;
+    }
+
+    #pp-nav ul, .pp-slidesNav ul{
+        margin-right: 350px !important;
+    }
+
+}
+
 .body{
         &_1{
             background: linear-gradient(229.39deg, #F1D044 6.57%, #F242C9 100%);
