@@ -141,6 +141,15 @@
   }
 }
 
+@media (max-width: 380px) and (min-height: 800px) {
+  .logo {
+    margin-top: 65px !important;
+  }
+  .page {
+    margin-top: -85px !important;
+  }
+}
+
 .page {
   border-radius: 20px;
   background: white;
