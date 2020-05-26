@@ -1321,6 +1321,12 @@
     width: 46%;
     padding-left: 2%;
   }
+  .marquee__item1 {
+    bottom: -130px;
+  }
+  .marquee__item2 {
+    bottom: -10px;
+  }
 }
 
 @media (max-width: 380px) and (max-height: 670px) {
