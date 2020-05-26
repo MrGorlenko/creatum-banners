@@ -17,7 +17,7 @@ $(document).ready(function () {
         value: 0,
         min: 0,
         max: 100,
-        step: 10,
+        step: 1,
         animate: true,
         slide: function (event, ui) {
             if (ui.value == 50000) { jQuery(".fcalcp5_vedyshiy_rez").html("<span>0</span>"); }
@@ -33,7 +33,7 @@ $(document).ready(function () {
         value: 0,
         min: 0,
         max: 100,
-        step: 10,
+        step: 1,
         animate: true,
         slide: function (event, ui) {
             if (ui.value == 15000) { jQuery(".fcalcp5_decor_rez").html("<span>0</span>"); }
@@ -49,7 +49,7 @@ $(document).ready(function () {
         value: 0,
         min: 0,
         max: 100,
-        step: 10,
+        step: 1,
         animate: true,
         slide: function (event, ui) {
             if (ui.value == 15000) { jQuery(".fcalcp5_html_rez").html("<span>0</span>"); }
@@ -101,7 +101,40 @@ $(document).ready(function () {
         jQuery(".summarize__line_static ").html("<span>Статичный баннер: " + addSpaces(sum_static) + addSpaces(sum_static_sale) + "</span>");
         jQuery(".summarize__line_dinam ").html("<span>Динамичный баннер: " + addSpaces(sum_dinam) + addSpaces(sum_dinam_sale) + "</span>");
         jQuery(".summarize__line_html ").html("<span>Перевод в HTML: " + addSpaces(sum_html) + "</span>");
+
     }
 
 
+
+    function stop(){
+        let globalSum = parseInt(jQuery(".fcalcp5_vedyshiy_rez span").text().replace(/\s+/g, "")) + parseInt(jQuery(".fcalcp5_decor_rez span").text().replace(/\s+/g, "")) + parseInt(jQuery(".fcalcp5_html_rez span").text().replace(/\s+/g, ""));
+        return globalSum
+    }
+
+
+        $('#order-btn').on('click', function(event){
+            // console.log('wow');
+            // stop();
+            // console.log(stop());
+            if (stop() < 10){
+                alert('Необходимо заказать минимум 10 баннеров!');
+            }
+            else {
+                $(".modal").addClass('modal_active');
+            }
+        })
+
+
 })
+
+// $('.summarize__button').on('click', function(){
+
+//     $(".modal").addClass('modal_active');
+
+// })
+
+// $('.modal__close').on('click', function(){
+
+//     $(".modal").removeClass('modal_active');
+
+// })
