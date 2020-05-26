@@ -141,7 +141,7 @@
   }
 }
 
-@media (max-width: 380px) and (min-height: 800px) {
+@media (max-width: 380px) and (min-height: 750px) {
   .logo {
     margin-top: 65px !important;
   }
