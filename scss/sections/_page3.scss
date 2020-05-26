@@ -114,3 +114,16 @@
     }
 
 }
+
+
+@media (max-width: 992px){
+
+    .page3{
+        &__pic{
+            width: 300px;
+            right: initial;
+        }
+    }
+
+}
+

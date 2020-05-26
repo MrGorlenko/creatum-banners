@@ -105,3 +105,39 @@
         width: 488px;
     }
 }
+
+@media (max-width: 992px){
+
+    .form{
+
+        margin: auto;
+        width: 360px;
+
+        &__law{
+            width: 360px;
+        }
+
+        &__input{
+            width: 360px;
+        }
+    }
+
+}
+
+@media (max-width: 345px){
+
+    .form{
+        &__title{
+            font-size: 23px;
+            line-height: 40px;
+        }
+
+        &__subtitle{
+            font-size: 14px;
+            line-height: 16px;
+            width: 80%;
+        }
+
+    }
+
+}

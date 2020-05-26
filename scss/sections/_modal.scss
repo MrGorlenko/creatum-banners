@@ -32,3 +32,32 @@
     transition: opacity .3s ease;
     z-index: 9001;
 }
+
+
+@media (max-width: 992px){
+
+    .modal{
+        padding-left: 0;
+
+        &__close{
+            right: 4%;
+            top: 6%;
+        }
+    }
+
+}
+
+
+@media (max-width: 376px){
+
+    .modal{
+        &__close{
+            right: 3%;
+            top: 2%;
+            img{
+                width: 35px;
+            }
+        }
+    }
+
+}

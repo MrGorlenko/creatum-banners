@@ -117,6 +117,13 @@
   }
 }
 
+@media (max-width: 376px) {
+  .page {
+    margin-top: -50px !important;
+    height: 97vh !important;
+  }
+}
+
 .page {
   border-radius: 20px;
   background: white;
@@ -309,6 +316,13 @@
   .page3__pic {
     width: 300px;
     right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .page3__pic {
+    width: 300px;
+    right: initial;
   }
 }
 
@@ -506,6 +520,26 @@
   z-index: 9001;
 }
 
+@media (max-width: 992px) {
+  .modal {
+    padding-left: 0;
+  }
+  .modal__close {
+    right: 4%;
+    top: 6%;
+  }
+}
+
+@media (max-width: 376px) {
+  .modal__close {
+    right: 3%;
+    top: 2%;
+  }
+  .modal__close img {
+    width: 35px;
+  }
+}
+
 .menu {
   position: absolute;
   z-index: 9000;
@@ -613,6 +647,12 @@
 @media (max-width: 1200px) {
   .logo {
     left: 7%;
+  }
+}
+
+@media (max-width: 376px) {
+  .logo {
+    margin-top: 15px;
   }
 }
 
@@ -1010,6 +1050,12 @@
   margin-top: 0;
 }
 
+@media (max-width: 992px) {
+  .summarize_modal {
+    display: none;
+  }
+}
+
 .form {
   height: 460px;
   display: flex;
@@ -1099,6 +1145,31 @@
   line-height: 17px;
   color: #959FB3;
   width: 488px;
+}
+
+@media (max-width: 992px) {
+  .form {
+    margin: auto;
+    width: 360px;
+  }
+  .form__law {
+    width: 360px;
+  }
+  .form__input {
+    width: 360px;
+  }
+}
+
+@media (max-width: 345px) {
+  .form__title {
+    font-size: 23px;
+    line-height: 40px;
+  }
+  .form__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    width: 80%;
+  }
 }
 
 @media (max-width: 576px) and (max-height: 750px) {
@@ -1427,7 +1498,6 @@
     font-size: 20px;
     height: 32px;
     margin-top: 55px;
-    padding-left: 15px;
   }
   .page4__label {
     margin-bottom: 0;

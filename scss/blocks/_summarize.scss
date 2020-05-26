@@ -80,3 +80,16 @@
     }
 
 }
+
+
+
+
+@media (max-width: 992px){
+
+    .summarize{
+        &_modal{
+            display: none;
+        }
+    }
+
+}
