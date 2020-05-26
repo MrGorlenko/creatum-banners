@@ -1476,7 +1476,7 @@
     margin-top: 50px;
     padding-bottom: 65px;
     min-height: 250px;
-    justify-content: flex-start;
+    justify-content: space-around;
   }
   .summarize__banners {
     margin-bottom: 5px;
