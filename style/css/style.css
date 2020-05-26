@@ -1360,6 +1360,15 @@
   }
 }
 
+@media (max-width: 330px) {
+  .marquee__item2 {
+    bottom: 50px;
+  }
+  .marquee__item1 {
+    bottom: -115px;
+  }
+}
+
 @media (max-width: 992px) {
   .page3__container {
     position: relative;
@@ -1552,6 +1561,12 @@
   }
   .summarize {
     margin-top: 25px;
+  }
+}
+
+@media (max-width: 380px) and (min-height: 666px) {
+  .summarize {
+    margin-top: 40px !important;
   }
 }
 
