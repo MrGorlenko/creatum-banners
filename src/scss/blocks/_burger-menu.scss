@@ -35,49 +35,27 @@
 
         &__first{
             width: 100%;
+            transition: .2s ease;
         }
 
         &__second{
             width: 50%;
+            transition: .2s ease;
         }
+    }
+
+    .first-axe{
+        transform: rotate(-45deg);
+        width: 100%;
+        transition: .2s ease;
+    }
+
+    .second-axe{
+        transform: rotate(45deg);
+        width: 100%;
+        transition: .2s ease;
+        margin-bottom: 8px;
     }
 
 }
 
-// @media (max-width: 380px) and (min-height: 666px){
-
-//     .burger-menu{
-
-//         width: 30px;
-//         height: 12px;
-//         top: 70px;
-
-//     }
-
-// }
-
-// @media (max-width: 361px) and (min-height: 639px){
-
-//     .burger-menu{
-
-//         width: 30px;
-//         height: 12px;
-//         top: 25px;
-
-//     }
-
-// }
-
-
-// @media (max-width: 336px){
-
-//     .burger-menu{
-
-//         width: 30px;
-//         height: 12px;
-//         top: 25px;
-
-//     }
-
-
-// }

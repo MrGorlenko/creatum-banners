@@ -23,7 +23,7 @@
         <img src="img/logo.svg" alt="">
         <div class="logo__line logo__line_1"></div>
 
-        <div class="burger-menu">
+        <div id='burger' class="burger-menu">
 
             <span class="burger__line burger__first"></span>
             <span class="burger__line burger__second"></span>
@@ -31,6 +31,16 @@
         </div>
 
      </div>
+
+    <div class="modal-menu">
+        <ul id="myMenu-mobile" class='modal-menu__list'>
+            <li data-menuanchor="firstPage" class="active"><a href="#firstPage"></a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">Виды креативов</a></li>
+            <li data-menuanchor="thirdPage"><a href="#thirdPage">Процесс</a></li>
+            <li data-menuanchor="fourthPage"><a href="#fourthPage">Тарифы</a></li>
+            <li data-menuanchor="fifthPage"><a href="#fifthPage">Команда</a></li>
+        </ul>
+    </div>
 
 
     <ul id="myMenu" class='menu'>
@@ -258,6 +268,7 @@
 
     
     <script src='scripts/main.js'></script>
+    <script src='scripts/burger-menu.js'></script>
 
 </body>
 </html>
