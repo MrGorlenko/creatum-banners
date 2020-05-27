@@ -543,7 +543,7 @@
 .modal_active {
   opacity: 1;
   transition: opacity .3s ease;
-  z-index: 9001;
+  z-index: 12001;
 }
 
 @media (max-width: 992px) {
@@ -1225,14 +1225,15 @@
 
 @media (max-width: 992px) {
   .form {
+    padding-left: 15px;
     margin: auto;
-    width: 360px;
+    width: 345px;
   }
   .form__law {
-    width: 360px;
+    width: 345px;
   }
   .form__input {
-    width: 360px;
+    width: 345px;
   }
 }
 
@@ -1699,6 +1700,12 @@
   .container_5 {
     padding-left: 0;
     align-items: center;
+  }
+}
+
+@media (max-width: 415px) and (min-height: 800px) {
+  .container_5 {
+    height: 87%;
   }
 }
 
