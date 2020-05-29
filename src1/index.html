@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creatum</title>
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="style/css/normalize.css">
+
+    <link rel="stylesheet" href="style/css/jquery.pagepiling.css">
+
+    <script src='scripts/lib/jquery.min.js'></script>
+    <script src='scripts/lib/jquery.pagepiling.js'></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style/css/runner.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '980073539082343');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=980073539082343&ev=PageView&noscript=1"
+    /></noscript>
+      <!-- End Facebook Pixel Code -->
+
+      <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+            ym(64434316, "init", {
+                 clickmap:true,
+                 trackLinks:true,
+                 accurateTrackBounce:true,
+                 webvisor:true
+            });
+         </script>
+         <noscript><div><img src="https://mc.yandex.ru/watch/64434316" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+       <!-- /Yandex.Metrika counter -->
+
+
+</head>
+<body id="body" class='body_1'>
+
+    <div id='logo' class="logo">
+        <a href="#firstPage">
+        <img src="img/logo.svg" alt="">
+        </a>
+        <div class="logo__line logo__line_1"></div>
+
+        <div id='burger' class="burger-menu">
+
+            <span class="burger__line burger__first"></span>
+            <span class="burger__line burger__second"></span>
+    
+        </div>
+
+     </div>
+
+    <div class="modal-menu">
+        <ul id="myMenu-mobile" class='modal-menu__list'>
+            <li data-menuanchor="firstPage" class="active"><a href="#firstPage"></a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">Виды креативов</a></li>
+            <li data-menuanchor="thirdPage"><a href="#thirdPage">Процесс</a></li>
+            <li data-menuanchor="fourthPage"><a href="#fourthPage">Тарифы</a></li>
+            <li data-menuanchor="fifthPage"><a href="#fifthPage">Команда</a></li>
+        </ul>
+    </div>
+
+
+    <ul id="myMenu" class='menu'>
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage"></a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Виды креативов</a></li>
+        <li data-menuanchor="thirdPage"><a href="#thirdPage">Процесс</a></li>
+        <li data-menuanchor="fourthPage"><a href="#fourthPage">Тарифы</a></li>
+        <li data-menuanchor="fifthPage"><a href="#fifthPage">Команда</a></li>
+    </ul>
+
+
+    <div id="pagepiling" class="page">
+        <div class="section section_c page_1">
+            <div class="container container_1">
+
+                <img src="img/page1/yellow.svg" alt="" class="yellow">
+                <img src="img/page1/yellow-mobile.svg" alt="" class="yellow_mobile">
+
+                <img src="img/page1/pictures.png" alt="" class='page1__pic'>
+
+            
+                <div class='page1__container'>
+                    <p class="page__label page__label_1">Мы делаем</p>
+                    <h1 class="title">Статичные <br> и динамичные креативы</h1>
+                    <p class="page__label page__label_2">Дешевле штатного дизайнера и качественнее фрилансеров.</p>
+                </div>
+
+                </div>
+        </div>
+
+        <div id='page-2' class="section section_c page_2">
+            <div class="container container_2">
+
+                 <p class="page2__title">Виды креативов</p>
+
+                 <ul class="toggle">
+                     <li id='toggle-1' class='toggle__item toggle__item_active'>Статичные <span class="toggle__arrow"> &#11046; </span></li>
+                     <li id='toggle-2' class='toggle__item'>Динамичные <span class="toggle__arrow"> &#11046; </span></li>
+                     <li id='toggle-3' class='toggle__item'>HTML <span class="toggle__arrow"> &#11046; </span></li>
+                     <li id='toggle-4' class='toggle__item'>короткие-ролики <span class="toggle__arrow"> &#11046; </span></li>
+                 </ul>
+
+                 <div class="marquee marquee_none">
+                     <img class='marquee__item' id='mar-static' src="img/page2/static.png" alt="">
+                     <img class='marquee__item_mobile' id='mar-static-mobile' src="img/page2/static-mobile.png" alt="">
+                     <!-- <img id='mar-dynamic' class='marquee_none marquee__item' src="img/page2/dinamic.png" alt=""> -->
+                     <div id='mar-dynamic' class="marquee_none marquee__item marquee__dynamic">
+
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+
+                        
+
+                     </div>
+                     <!-- <img id='mar-dynamic-mobile' class='marquee_none marquee__item_mobile' src="img/page2/dinamic-mobile.png" alt=""> -->
+                     <div id='mar-dynamic-mobile' class='marquee_none marquee__item_mobile' >
+
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+                        <img src="img/page2/1.png" alt="" class="video video_1">
+                        <img src="img/page2/2.png" alt="" class="video video_2">
+                        <img src="img/page2/4.png" alt="" class="video video_4">
+                        <img src="img/page2/3.png" alt="" class="video video_3">
+                        <img src="img/page2/5.png" alt="" class="video video_5">
+                        <img src="img/page2/6.png" alt="" class="video video_6">
+                        <img src="img/page2/7.png" alt="" class="video video_7">
+                        <img src="img/page2/8.png" alt="" class="video video_8">
+                        <img src="img/page2/9.png" alt="" class="video video_9">
+                        <img src="img/page2/10.png" alt="" class="video video_10">
+
+                        <!-- <iframe playsinline class='video' src="https://www.youtube.com/embed/4hsIMcdS-bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe playsinline class='video' src="https://www.youtube.com/embed/4hsIMcdS-bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe playsinline class='video' src="https://www.youtube.com/embed/4hsIMcdS-bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe playsinline class='video' src="https://www.youtube.com/embed/4hsIMcdS-bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe playsinline class='video' src="https://www.youtube.com/embed/4hsIMcdS-bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe playsinline class='video' src="https://www.youtube.com/embed/4hsIMcdS-bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+
+
+                     </div>
+                     <img id='mar-html' class='marquee_none marquee__item1' src="img/page2/html.png" alt="">
+                     <div id='mar-video' class='marquee_none marquee__item2' src="img/page2/html.png">
+                        <div class="mar__video">
+                            <iframe class="mar__movie" src="https://player.vimeo.com/video/398104473"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                        <div class="mar__video">
+                            <iframe class="mar__movie" src="https://player.vimeo.com/video/381193802" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                        <div class="mar__video">
+                            <iframe class="mar__movie" src="https://player.vimeo.com/video/384544762"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                        <div class="mar__video">
+                            <iframe class="mar__movie" src="https://player.vimeo.com/video/375724926"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <p id='mar-html_label' class="marquee_none mar__html">HTML-баннеры аналогичны 
+                        статичным/динамическим, но состоят из программного кода, такие баннеры более оптимизированы
+                    и адаптивны под мобильные и desktop расширения</p>
+                 </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="section section_c page_3">
+            <div class="container container_3">
+                <p class="page3__title">Как устроен процесс</p>
+
+                <ul class="page3__list">
+                    <li id='proc-1' class='page3__item page3__item_active'>1.   <span>Заполнение брифа</span></li>
+                    <li id='proc-2' class='page3__item'>2.   <span>Изготовление и согласование <span class='page3__item_left'>прототипов</span> </span></li>
+                    <li id='proc-3' class='page3__item'>3.   <span>Изготовление мастер-баннеров</span></li>
+                    <li id='proc-4' class='page3__item'>4.   <span>Внесение изменений и финальное <span class='page3__item_left'>согласование</span> </span></li>
+                </ul>
+
+                <p class="page3__paragraph">Мы знаем правила игры площадок 
+                    размещения, и подстраиваем их для наиболее эффективного плейсмента 
+                    наших креативов ваши продуктов. Это значит, что в фб мы сделаем текст 
+                    менее 20%, а для google ads изображение, которое подходит по смыслу к копирайтингу</p>
+
+                <div class="page3__container">
+                    <img src="img/page3/1.png" alt="" class="page3__pic page3__pic_1">
+                    <img src="img/page3/2.png" alt="" class="page3__pic page3__pic_2 page3__pic_none">
+                    <img src="img/page3/3.png" alt="" class="page3__pic page3__pic_3 page3__pic_none">
+                    <img src="img/page3/4.png" alt="" class="page3__pic page3__pic_4 page3__pic_none">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section section_c page_4">
+            <div class="container container_4">
+
+                <span class="page4__title">Тарифы</span>
+                <span class="page4__label">Выберите подходящее для вас количество и вид баннеров</span>
+
+
+                <div class="fcalcp1">
+                    <div class="page4__block">
+                        <div class="fcalcp2">
+                            <p class="runner__decs runner__decs_left">Статичные</p>
+                            <div class="runner fcalcp5 fcalcp5_vedyshiy ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+                            <div class="fcalcp6 fcalcp5_vedyshiy_rez">
+                                <span class='runner__label runner__label_first'>0</span>
+                            </div>
+                        </div>
+                        <div class="fcalcp2">
+                            <p class="runner__decs">Динамичные</p>
+                            <!-- <input type="number"  oninput="document.getElementById('rangeType').value = this.value;costCalculator();"> -->
+                            <div id="rangeType" class="runner fcalcp5 fcalcp5_decor ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+                            <div class="fcalcp6 fcalcp5_decor_rez">
+                                <span class='runner__label runner__label_second'>0</span>
+                            </div>
+                        </div>
+                        <div class="fcalcp2">
+                            <p class="runner__decs runner__decs_left">HTML</p>
+                            <div class="runner fcalcp5 fcalcp5_html ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+                            <div class="fcalcp6 fcalcp5_html_rez">
+                                <span class='runner__label runner__label_last'>0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="summarize">
+                        <div class="summarize__banners">
+                            <span>0</span> баннеров
+                        </div>
+                        <div class="fcalcp7">
+                            <div class="fcalcp9"><span class="tariff_sum">0</span> ₽ </div>
+                        </div>
+                        <div class="summarize__amount">
+                            <span class="summarize__line summarize__line_static"> Статичный баннер: <span class="summarize__amount_banners">0</span>шт. </span>
+                            <span class="summarize__line summarize__line_dinam"> Динамичный баннер: <span class="summarize__amount_banners">0</span>шт. </span>
+                            <span class="summarize__line summarize__line_html"> Перевод в HTML: <span class="summarize__amount_banners">0</span>шт. </span>
+                        </div>
+
+                        <button id='order-btn' class="summarize__button">Заказать</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="section section_c page_5">
+            <div class="container container_5">
+
+                <div class="page5__top">
+
+
+                    <div class="page5__team page5__content">
+
+                        <span class="page5__title page5__title_team">Команда</span>
+
+                        <div class="page5__block"> <img src="img/page5/Evgeny.jpg" alt=""> <p class="page5__name">Евгений Федоров</p> <p class="page5__position">Арт Директор</p> </div>
+                        <div class="page5__block"> <img src="img/page5/Alice.jpg" alt=""> <p class="page5__name">Алиса Тейван</p> <p class="page5__position">Креатор</p> </div>
+                        <div class="page5__block"> <img src="img/page5/Max.jpg" alt=""> <p class="page5__name">Максим Оливсон</p> <p class="page5__position">Маркетолог</p> </div>
+                        <div class="page5__block"> <img src="img/page5/Insaf.jpg" alt=""> <p class="page5__name">Инсаф Галиев</p> <p class="page5__position">Аккаунт-менеджер</p> </div>
+                    </div>
+
+                </div>
+
+
+                <div class="page5__contacts page5__content">
+                    <span class="page5__title page5__title_cont">контакты </span>
+                    <a href="" class="page5__email">E-mail: hi@creatum.agency</a>
+                    <div class="icons">
+                        <a target="_blank" href="https://www.facebook.com/creatum.fb/?modal=admin_todo_tour"><img src="img/page5/facebook.svg" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com/creatum.ig/"><img src="img/page5/insta.svg" alt=""></a>
+                        <a target="_blank" href="https://teleg.run/@insafgal"><img src="img/page5//telegram.svg" alt=""></a>
+                    </div>
+                    <span class="page5__subtitle">© Завод баннеров создан агентством Creatum, 2020</span>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <section class="modal">
+
+        <div class="modal__close"><img src="img/modal/close.svg" alt=""></div>
+
+        <div  class="summarize summarize_modal">
+            <div class="summarize__banners">
+                <span>#</span> баннеров
+            </div>
+            <div class="fcalcp7">
+                <div class="fcalcp9"><span>0</span> ₽ </div>
+            </div>
+            <div class="summarize__amount">
+                <span class="summarize__line summarize__line_static"> Статичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
+                <span class="summarize__line summarize__line_dinam"> Динамичный баннер: <span class="summarize__amount_banners">#</span>шт. </span>
+                <span class="summarize__line summarize__line_html"> Перевод в HTML: <span class="summarize__amount_banners">#</span>шт. </span>
+            </div>
+
+        </div>
+
+        <form id='getInTouchForm' class="form">
+            <span class="form__title">Оформление заказа</span>
+            <span class="form__subtitle">Оставьте свои контакты и мы свяжемся с вами в ближайшее время</span>
+            <label for=""  class="form__label">Ваше имя <span>*</span> </label>
+            <input type="text" name='name' class="form__input" placeholder='Введите имя'>
+            <label for="" class="form__label">Электронная почта <span>*</span> </label>
+            <input type="text" name='email' class="form__input" placeholder="Введите почту для обратной связи">
+            <label for=""  class="form__label">Телефонный номер <span>*</span> </label>
+            <input type="text" name='phone' class="form__input" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+
+            <input type="hidden" name='static' class="summarize__amount_banners">
+            <input type="hidden" name='dynamic' class="summarize__amount_banners">
+            <input type="hidden" name='html' class="summarize__amount_banners">
+
+            <button type="submit" class="form__button">Отправить</button>
+
+            <span class="form__law">Нажимая кнопку “отправить” я соглашаюсь на обработку персональных данных.</span>
+
+        </form>
+
+    </section>
+
+    <section class="video_modal video_modal_1">
+
+        <img src="img/page2/close.svg" alt="" class="video_modal-close">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CxImMjRNxTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="video_modal video_modal_2">
+
+        <img src="img/page2/close.svg" alt="" class="video_modal-close">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qfhgAzsk0yQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="video_modal video_modal_3">
+
+        <img src="img/page2/close.svg" alt="" class="video_modal-close">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Oi6LAzKwJek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="video_modal video_modal_4">
+
+        <img src="img/page2/close.svg" alt="" class="video_modal-close">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4hsIMcdS-bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="video_modal video_modal_5">
+
+        <img src="img/page2/close.svg" alt="" class="video_modal-close">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/E2-g3I5RGxE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="video_modal video_modal_6">
+
+        <img src="img/page2/close.svg" alt="" class="video_modal-close">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/V5Dzqw3jKUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="video_modal video_modal_7">
+
+        <img src="img/page2/close.svg" alt="" class="video_modal-close">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TgJSVFb6S3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="video_modal video_modal_8">
+
+        <img src="img/page2/close.svg" alt="" class="video_modal-close">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3vaY4V8-lq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="video_modal video_modal_9">
+
+        <img src="img/page2/close.svg" alt="" class="video_modal-close">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PL-ppX1Q96Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="video_modal video_modal_10">
+
+        <img src="img/page2/close.svg" alt="" class="video_modal-close">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mO1Yo0WmnKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    
+
+    
+    <script src='scripts/main.js'></script>
+    <script src='scripts/burger-menu.js'></script>
+    <script>
+        
+        $(document).ready(function(){
+            $("#getInTouchForm").submit(function(e){
+                e.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: "mail.php",
+                    data: $(this).serialize()
+                }).done(function(event) {
+                    
+                    
+                    $("#getInTouchForm").slideUp(500);
+                    setTimeout(function(){
+                        $("#getInTouchForm").html('<h2 class="thanks  form__title">Спасибо! Ваша заявка отправлена!</h2>');
+                        $("#getInTouchForm").slideDown(400);
+                    }, 500);
+                });
+                return false;
+            });
+        });
+    </script>
+
+</body>
+</html>
